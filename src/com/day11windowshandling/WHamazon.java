@@ -36,5 +36,7 @@ public class WHamazon {
 
 		WebElement btnAdd2Cart = driver.findElement(By.id("add-to-cart-button"));
 		btnAdd2Cart.click();
+		
+		System.out.println("Git repository");
 	}
 }
